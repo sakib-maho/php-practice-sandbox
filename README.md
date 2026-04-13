@@ -18,7 +18,7 @@ ranked candidate data and exposes the same data through a JSON endpoint.
 - Legacy assignment files kept under `legacy/`
 - Data schema test for `data/candidates.json`
 
-## Run Locally
+## Quick Start
 
 ```bash
 php -S localhost:8000
@@ -28,7 +28,7 @@ Open:
 - `http://localhost:8000/index.php`
 - `http://localhost:8000/api.php`
 
-## Run Tests
+## Tests
 
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py"
